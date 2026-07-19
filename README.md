@@ -1,8 +1,19 @@
 # Classificação de Falhas em Máquinas Industriais
 
-> Projeto de Machine Learning para previsão de falhas em máquinas industriais utilizando técnicas de classificação supervisionada.
+> Projeto de Machine Learning desenvolvido para prever falhas em máquinas industriais a partir de dados operacionais e de sensores. O projeto contempla todas as etapas de um fluxo de Ciência de Dados, incluindo análise exploratória, engenharia de atributos, pré-processamento, balanceamento de dados, treinamento de modelos e avaliação dos resultados.
 
 -----
+## Tecnologias Utilizadas
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Imbalanced-learn (SMOTE)
+
+  ---------
 
 ## Divisão das partes do projeto
 O projeto foi dividido em seis etapas principais:
@@ -19,7 +30,7 @@ Nesta etapa foram criadas três novas variáveis a partir das características o
 - **delta_temperatura:** diferença entre a temperatura do processo e a temperatura do ar.
 - **desgaste_torque:** produto entre o desgaste da ferramenta e o torq
 
-### Parte 3 –  Divisão, prepração das colunas e  Balanceamento dos Dados
+### Parte 3 –  Divisão, preparação das colunas e  Balanceamento dos Dados
 
 Nesta etapa foi realizado o pré-processamento dos dados para o treinamento dos modelos de Machine Learning, contemplando as seguintes etapas:
 
